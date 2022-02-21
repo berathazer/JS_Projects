@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body style="background:url('matrix.jpg')">
+    <h2 style="color:white;text-align: center;z-index: 100;position: relative;top: 25px;">Password Generator</h2>
+    
+    <div class="matrix">
+       
+        <div class="container mt-5">
+
+            <div class="card mx-auto bg-dark" style="width: 400px;">
+                
+                <div class="card-header ">
+                    <input type="text" class="form-control bg-secondary" id="password" style="outline: none;border: none;color: white; height: 60px">
+                </div>
+        
+                <div class="card-body">
+    
+                   <div class="f-items">
+                       <label for="length">Password length</label>
+                       <input type="text" id="length"  style="width: 80px;position:relative;bottom: 2px;border-radius: 5px;">
+                   </div>
+    
+                   <div class="f-items">
+                        <label for="uppercase">Contain Uppercase Letters</label>
+                        <input type="checkbox" id="uppercase">
+                    </div>
+    
+                    <div class="f-items">
+                        <label for="lowercase">Contain Lowercase Letters</label>
+                        <input type="checkbox" id="lowercase">
+                    </div>
+    
+                    <div class="f-items">
+                        <label for="numbers">Contain Numbers</label>
+                        <input type="checkbox" id="numbers">
+                    </div>
+    
+                    <div class="f-items">
+                        <label for="symbols">Contain Symbols</label>
+                        <input type="checkbox" id="symbols">
+                    </div>
+    
+                </div>
+        
+                <div class="card-footer">
+                    <button class="btn btn-warning w-100">Generate Password</button>
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

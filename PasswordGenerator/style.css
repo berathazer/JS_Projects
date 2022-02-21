@@ -1,0 +1,44 @@
+ul{
+    list-style-type: none;
+}
+body{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.matrix{
+    width: 100%;
+    height: 100%;
+}
+
+.matrix::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+.f-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+label{
+    color: white;
+}
+
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.card{
+    z-index: 1;
+
+}
