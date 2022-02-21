@@ -1,0 +1,29 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  
+  background:black;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.box
+{
+  padding: 1px;
+  border: 1px solid black;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: #444;
+  transition: all ease 0.4s;
+}
